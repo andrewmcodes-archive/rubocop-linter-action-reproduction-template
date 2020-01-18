@@ -1,5 +1,7 @@
 # README
 
+Template repository for reproducing bugs from [rubocop-linter-action](https://github.com/andrewmcodes/rubocop-linter-action).
+
 ## Dependencies
 
 - Ruby: `2.7.0`
