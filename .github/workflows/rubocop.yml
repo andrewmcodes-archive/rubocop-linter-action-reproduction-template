@@ -29,10 +29,10 @@ jobs:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Install Ruby 2.7
-      uses: eregon/use-ruby-action@v1
+    - name: Set up Ruby 2.7
+      uses: actions/setup-ruby@v1
       with:
-        ruby-version: 2.7
+        ruby-version: 2.7.x
     - uses: actions/cache@v1
       with:
         path: vendor/bundle
